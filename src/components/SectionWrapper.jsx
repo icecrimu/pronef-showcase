@@ -19,6 +19,14 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner }) => {
             <Button assetUrl={assets.expo} link="deployed nft marketplace rn" />
           )}
         </div>
+
+        <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
+          <img
+            src={mockupImg}
+            alt="mockup"
+            className={`${styles.sectionImg}`}
+          />
+        </div>
       </div>
     </div>
   )
