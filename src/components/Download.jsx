@@ -15,7 +15,17 @@ const Download = () => {
             Get the full source code on Github
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button
+          onClick={() =>
+            window.open(
+              "https://github.com/icecrimu/pronef-native-app",
+              "_blank"
+            )
+          }
+          className={styles.btnPrimary}
+        >
+          Source Code
+        </button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}
